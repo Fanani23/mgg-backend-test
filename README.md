@@ -46,6 +46,9 @@ Use credentials above
 
 Connect to database
 
+## DB Schema
+DB schema in folder resource with filename schema.sql
+
 ## 🔗 Frontend Integration
 The backend is designed to work with the React frontend. Make sure the frontend is running on http://localhost:3000.
 
