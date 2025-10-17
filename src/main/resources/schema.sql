@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS products (
-    id BIGSERIAL PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    price DECIMAL(19,2),
     handle VARCHAR(255) NOT NULL UNIQUE,
     vendor VARCHAR(255),
-    image TEXT,
-    price DECIMAL(10,2)
+    image CLOB
 );
