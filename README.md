@@ -31,7 +31,7 @@ gradle bootRun
 
 ## 🗄️ Database Configuration
 H2 Database (In-Memory)
-JDBC URL: jdbc:h2:mem:productdb
+JDBC URL: jdbc:h2:mem:product_db
 
 Username: sa
 
